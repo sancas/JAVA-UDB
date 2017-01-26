@@ -12,15 +12,13 @@ public class tarea {
         
         System.out.print("Ingrese su nombre: ");
         nombre = reader.nextLine();
-
-		do {
-			System.out.print("Ingrese su edad: ");
-			edad = reader.nextInt();
-			if (edad <= 0)
-				JOptionPane.showMessageDialog(null, "Solo numeros positivos");
-		} while (edad <= 0);
-
-        edad = reader.nextInt();
+        
+        do {
+            System.out.print("Ingrese su edad: ");
+            edad = reader.nextInt();
+            if (edad <= 0)
+                JOptionPane.showMessageDialog(null, "Solo numeros positivos mayores de 0");
+        } while (edad <= 0);
         
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
