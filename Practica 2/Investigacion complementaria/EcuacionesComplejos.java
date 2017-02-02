@@ -2,7 +2,10 @@ import java.util.*;
 public class EcuacionesComplejos {
     public static void main(String[] args)
     {
-        float a=4, b=8, c=12, d=-15, e=10, f=0, g=12, h=-6, i=-5, j=7, k=35, l=-3;
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Ingresar valores a - l de corrido.");
+
+        float a=reader.nextFloat(), b=reader.nextFloat(), c=reader.nextFloat(), d=reader.nextFloat(), e=reader.nextFloat(), f=reader.nextFloat(), g=reader.nextFloat(), h=reader.nextFloat(), i=reader.nextFloat(), j=reader.nextFloat(), k=reader.nextFloat(), l=reader.nextFloat();
         /* Relacion variables creadas con coeficientes de ambas ecuaciones complejas
         (a + bj)x + (c + dj) = (e + fj) Primera Ecuacion
         (g + hj)x + (i + jj) = (k + lj) Segunda Ecuacion */
