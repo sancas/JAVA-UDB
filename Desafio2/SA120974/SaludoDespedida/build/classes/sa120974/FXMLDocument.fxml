@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sa120974.FXMLDocumentController">
+    <children>
+        <Label layoutX="81.0" layoutY="54.0" text="Idioma:" />
+      <ComboBox layoutX="150.0" layoutY="50.0" prefWidth="150.0" promptText="Elija un idioma..." fx:id="cmbIdioma">
+      </ComboBox>
+      <RadioButton fx:id="rbtnSaludo" layoutX="326.0" layoutY="54.0" mnemonicParsing="false" selected="true" text="Saludo">
+         <toggleGroup>
+            <ToggleGroup fx:id="Mensaje" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbtnDespedida" layoutX="444.0" layoutY="54.0" mnemonicParsing="false" text="Despedida" toggleGroup="$Mensaje" />
+      <Label fx:id="lblMensaje" alignment="CENTER" layoutX="118.0" layoutY="153.0" prefHeight="53.0" prefWidth="364.0" text="">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Limpiar" onAction="#limpiarButtonAction" />
+      <Button layoutX="300.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Enviar" onAction="#enviarButtonAction" />
+    </children>
+</AnchorPane>
