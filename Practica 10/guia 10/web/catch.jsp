@@ -4,7 +4,7 @@
 	<%=Integer.parseInt(request.getParameter("parametro")) %>
 </c:catch>
 <c:if test="${not empty error01}">
-	Se producjo un error: ${error01}
+	Se produjo un error: ${error01}
 </c:if>
 <br />
 <form>
