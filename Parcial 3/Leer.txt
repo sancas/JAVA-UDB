@@ -1,0 +1,5 @@
+Presentado por:
+Cristian Antonio Sanchez Aguilar - SA120974
+Walter Jacir Medrano Henriquez - MH110184
+
+Los passwords de los docentes ya creados en la base son para todos "123" sin comillas

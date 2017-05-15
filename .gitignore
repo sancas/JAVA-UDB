@@ -1,71 +1,17 @@
-/Practica 1/guia1/nbproject/private/
-/Practica 1/guia1/build/
-/Practica 3/guia4/nbproject/private/
-/Practica 3/guia4/build/
-/Practica 4/guia4/nbproject/private/
-/Practica 4/guia4/build/
-/Practica 4/guia4/dist/
-/ParcialSA120974/nbproject/private/
-/ParcialSA120974/build/
-/Desafio1/nbproject/private/
-/Desafio1/build/
-/Desafio1/dist/
-/Practica 5/InvestigacionComplementaria/nbproject/private/
-/Practica 5/InvestigacionComplementaria/build/
-/InvestigacionComplementariaG6/JavaFXApplication2/nbproject/private/
-/Practica 7/guia8/nbproject/private/
-/Practica 7/guia7/nbproject/private/
-/Practica 7/guia7/build/
-/Practica 7/guia7/dist/
-/Practica 7/InvestigacionComplementaria/nbproject/private/
-/Practica 7/InvestigacionComplementaria/build/
-/Practica 7/guia8/build/
-/Practica 8/ServletsGuia8/nbproject/private/
-/Practica 8/ServletsGuia8/dist/
-/Practica 8/ServletsGuia8/build/
-/Practica 8/guia8/build/
-/Practica 8/guia8/nbproject/private/
-/Practica 8/guia8Servlets/nbproject/private/
-/Practica 8/guia8Servlets/dist/
-/Practica 8/guia8Servlets/build/
-/Practica 8/InvestigacionComplementaria/nbproject/private/
-/Practica 8/InvestigacionComplementaria/build/
-/Practica 9/InvestigacionComplementaria/nbproject/private/
-/Practica 9/InvestigacionComplementaria/build/
-/Practica 9/InvestigacionComplementaria/dist/
-/SA120974_MH110184/Web/nbproject/private/
-/SA120974_MH110184/Web/build/
-/SA120974_MH110184/Web/dist/
-/Desafio 2/MasaCorporal/nbproject/private/
-/Desafio 2/MasaCorporal/build/
-/Desafio 2/MasaCorporal/dist/
-/Desafio 2/SolucionesAplicativas/nbproject/private/
-/Desafio 2/SolucionesAplicativas/build/
-/Desafio 2/Saludo/nbproject/private/
-/Desafio 2/Saludo/build/
-/Desafio 2/Saludo/dist/
-/Desafio 2/Saludos/nbproject/private/
-/Desafio 2/Saludos/dist/
-/Desafio 2/Saludos/build/
-/Desafio 2/JavaFXApplication5/nbproject/private/
-/Desafio 2/JavaFXApplication5/dist/
-/Desafio 2/JavaFXApplication5/build/
-/Desafio 2/JavaFXApplication6/nbproject/private/
-/Desafio 2/JavaFXApplication6/build/
-/Desafio 2/JavaFXApplication6/dist/
-/Desafio 2/SaludoDespedida/nbproject/private/
-/Desafio 2/SaludoDespedida/build/
-/Desafio 2/SaludoDespedida/dist/
-/Desafio 2/Applets/nbproject/private/
-/Desafio 2/Applets/build/
-/Desafio 2/Applets/dist/
-/Desafio 2/SolucionesAplicativas/dist/
-/Practica 10/guia 10/nbproject/private/
-/Practica 10/guia 10/build/
-/Practica 10/InvestigacionComplementaria/nbproject/private/
-/Practica 10/InvestigacionComplementaria/build/
-/Practica 10/InvestigacionComplementaria/dist/
-/Practica 11/guia11/nbproject/private/
-/Practica 11/guia11/build/
-/Practica 11/guia11/dist/
-/Parcial 3/Universidad/nbproject/private/
+#java specific
+*.class
+
+#netbeans ignore personal stuff
+nbproject/
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# Package Files #
+*.jar
+*.war
+*.ear
